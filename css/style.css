@@ -1714,7 +1714,7 @@ img{
 }
 
 .sticky-header .nav-outer .options-box{
-	margin-top:45px;
+	margin-top:4px;
 }
 
 /*Sticky Header*/
@@ -2252,11 +2252,28 @@ img{
 	height: 60px; /*ancho del rectangulo*/
 	background-color:#73192A;
 }
+
 /*barra o rectangulo rojo vino*/
 .header-style-three .nav-outer{
 	padding-left:200px;
 	
 }
+@media (max-width: 1068px) {
+    .header-style-three .header-lower .red-color-layer {
+        width: 100%; /* Ancho en móviles */
+        height: 80px; /* Altura en móviles */
+    }
+
+    .header-style-three .nav-outer {
+        padding-left: 0; /* Elimina padding en móviles */
+    }
+
+    .header-style-three .nav-outer:before {
+        border-bottom: 40px solid #73192A; /* Ajusta el triángulo */
+        border-left: 20px solid transparent; /* Ajusta el triángulo */
+    }
+}
+
 
 .header-style-three .nav-outer:before{
 	position:absolute;
@@ -16236,7 +16253,7 @@ img{
 
 .submenu {
     position: relative;
-    padding: 3px;
+    padding: 5px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -16406,3 +16423,16 @@ th, td {
     background-color: #fff; /* Cambia el color de fondo cuando el input está enfocado */
     outline: none; /* Quita el contorno predeterminado al enfocar el input */
 }
+#miImagenProducto.ampliada {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté encima de todo */
+}
+

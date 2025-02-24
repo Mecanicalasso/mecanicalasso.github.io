@@ -11,7 +11,7 @@
 @media only screen and (max-width: 1500px){
 	
 	.banner-section .left-sidebar-info{
-		width:80px;
+		width:90px;
 	}
 	
 	.banner-section .nav-btn{
@@ -186,7 +186,7 @@
 	
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 68px){
 	
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
@@ -211,7 +211,7 @@
 	
 	.header-style-two.alternate .search-box-btn,
 	.header-style-two.alternate .main-menu .navigation > li > a{
-		color:#111111;
+		color:#fbb8b8;
 	}
 	
 	.header-style-three.alternate{
