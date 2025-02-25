@@ -2258,19 +2258,18 @@ img{
 	padding-left:200px;
 	
 }
-@media (max-width: 1068px) {
+
+@media (max-width: 480px) { /* Pantallas muy pequeñas */
     .header-style-three .header-lower .red-color-layer {
-        width: 100%; /* Ancho en móviles */
-        height: 80px; /* Altura en móviles */
+        width: 30vw;
+        height: 10vh;
     }
+}
 
-    .header-style-three .nav-outer {
-        padding-left: 0; /* Elimina padding en móviles */
-    }
-
-    .header-style-three .nav-outer:before {
-        border-bottom: 40px solid #73192A; /* Ajusta el triángulo */
-        border-left: 20px solid transparent; /* Ajusta el triángulo */
+@media (min-width: 1920px) { /* Pantallas muy grandes */
+    .header-style-three .header-lower .red-color-layer {
+        width: 15vw;
+        height: 6vh;
     }
 }
 
@@ -4201,7 +4200,7 @@ img{
 	position: relative;
 	float: right;
 	font-size: 36px;
-	line-height: 35px;
+	line-height: 50px;
 	cursor: pointer;
 	color:white;
 	display: none;
@@ -4222,7 +4221,7 @@ img{
 
 .mobile-menu .nav-logo{
 	position:relative;
-	padding:10px 20px;
+	padding:20px 20px;
 	text-align:left;	
 }
 
