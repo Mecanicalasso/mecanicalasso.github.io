@@ -24,7 +24,6 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -38,7 +37,7 @@
 		<span></span>
 	</div>
  	
- 	<!-- Header principal-->
+ 	<!-- Main Header-->
     <header class="main-header header-style-three">
     	
 		<!-- Header Top Two -->
@@ -47,36 +46,42 @@
                 <div class="inner-container clearfix">
 					<!-- Top Left -->
 					<div class="top-left">
-						<!-- horarios -->
-
+						<!-- Info List -->
 						<ul class="info-list">
 
 							<li><a href="https://www.google.com/maps/@9.0153728,-79.4872981,3a,75y,186.77h,67.81t/data=!3m6!1e1!3m4!1ssgAxIIqdKcZglZGw6VPmow!2e0!7i16384!8i8192?entry=ttu" class="fa fa-map-marker" style="font-size:25px; color: #73192A;"></a> Calle Y Parque Lefevre</li>
 
 							<li><i class="fa fa-clock-o" style="font-size:20px;color:white"></i> Lun - Sab : 8.00 am - 5.00 pm</li>
+							<i><a href="tel:67965293" class="fa fa-phone" style="font-size:25px;color: white;"></a> Tel:6796-5293</li>
 							
-							<li><a href="tel:67965293" class="fa fa-phone" style="font-size:25px;color: aliceblue;"></a> Tel:6796-5293</li>
-							<li><a href="https://www.instagram.com/mecanica_lasso/"><i class="fab fa-instagram" style="color: aliceblue; font-size: 20px;"></i></a></li>
-
 						</ul>
 					</div>
-				
+					
+					<!-- Top Right -->
+                    <div class="top-right pull-right">
+						<!-- Social Box -->
+						<ul class="social-box">
+							
+							<li><a href="https://www.instagram.com/mecanica_lasso/"><i class="fab fa-instagram" style="color: aliceblue; font-size: 20px;"></i></a></li>
+						</ul>
+                    </div>
+					
                 </div>
             </div>
         </div>
 		
-		<!--Header Lower encabezado inferior lado izquiero-->
+		<!--Header Lower-->
         <div class="header-lower">
             <div class="red-color-layer"></div>
             <div class="auto-container clearfix">
-				<!--logo-->
+				
 				<div class="pull-left logo-box">
-					<div class="mecanica"><a href="index.html"><img src="images/Logo tansparente.png"></a></div>
+					<div class="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
 				</div>
 				
                 <div class="nav-outer clearfix">
 					
-					<!-- Mobile Navigation Toggler navegacion movil -->
+					<!-- Mobile Navigation Toggler -->
 					<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
 					<!-- Main Menu -->
 					<nav class="main-menu show navbar-expand-md">
@@ -87,7 +92,7 @@
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						<!-- Menu principal-->
+						
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
 								<li class=""><a href="index.html">Inicio</a>
@@ -109,55 +114,56 @@
 						</div>
 						
 					</nav>
-					<!-- Nav Btn -->
+					<!-- Main Menu End-->
+					
+					<!-- Main Menu End-->
 					<div class="outer-box clearfix">
+						
+						<!--Search Box-->
+                       
+						
 						<!-- Nav Btn -->
 						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu-3"></span></div>
 						
 					</div>
+					
                 </div>
             </div>
         </div>
-        <!-- End Header Lower cabecera superior cuand el mouse va bajando  -->
-        <!--carrito de compras-->
-<div>
-    <ul>
-        <li class="submenu" id="carrito-container">
-            <img id="img-carrito" src="images/carrito-de-compras .png" alt="car">
-            <!-- Mantén este elemento si es el que deseas utilizar -->
-            <span id="cantidad-carrito"></span> 
-            <div id="carrito">
-                <table id="lista-carrito">
-                    <thead>
-                        <tr>
-                            <th>Producto</th>
-                            <th>Descripción</th> 
-                            <th>Precio</th> 
-                            <th>Cantidad</th> 
-                            <th>Eliminar</th> 
-                         
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                    </tbody>
-                </table>
-                <div id="total-pagar" class="total">Total: <span id="total-pagar-valor"></span></div> <!-- Nuevo elemento para mostrar el total al final -->
-                <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
-                <a href="https://wa.me/50769684299" id="procesar-pedido" class="button-pedido">Procesar Compra</a>
-            </div>
-        </li>
+        <!-- End Header Lower -->
         
-    </ul>
-</div>
-
-
-
-
-
-
 		<!-- Sticky Header  -->
-        <div class="sticky-header">
+		<div>
+			<ul>
+				<li class="submenu" id="carrito-container">
+					<img id="img-carrito" src="images/carrito-de-compras .png" alt="car">
+					<!-- Mantén este elemento si es el que deseas utilizar -->
+					<span id="cantidad-carrito"></span> 
+					<div id="carrito">
+						<table id="lista-carrito">
+							<thead>
+								<tr>
+									<th>Producto</th>
+									<th>Descripción</th> 
+									<th>Precio</th> 
+									<th>Cantidad</th> 
+									<th>Eliminar</th> 
+								 
+								</tr>
+							</thead>
+							<tbody>
+								
+							</tbody>
+						</table>
+						<div id="total-pagar" class="total">Total: <span id="total-pagar-valor"></span></div> <!-- Nuevo elemento para mostrar el total al final -->
+						<a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+						<a href="https://wa.me/50767965293" id="procesar-pedido" class="button-pedido">Procesar Compra</a>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+    	<div class="sticky-header">
             <div class="auto-container clearfix">
                 <!--imagen cuando voy bajando el mouse-->
                 <div class="logo pull-left">
@@ -171,21 +177,12 @@
                     </nav><!-- Main Menu End-->
 					
 					<!-- Main Menu End-->
-					<div class="outer-box clearfix">
-						
-						<!-- Search Btn -->
-						
-						
-						<!-- Nav Btn -->
-						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu-3"></span></div>
-						
-					</div>
+					
 					
                 </div>
             </div>
         </div><!-- End Sticky Menu fin del menu superior -->
-    
-		<!-- Menu celular  -->
+		<!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
@@ -247,9 +244,8 @@
 	</div>
 	<!-- END sidebar widget item -->
 	
-	<!-- primer baner principal los mini carritos
-	 -->
-	 <section class="banner-section-three">
+	<!-- Banner Section Three -->
+	<section class="banner-section-three">
 		
 		<div class="main-slider-carousel owl-carousel owl-theme">
             
@@ -275,20 +271,24 @@
 		</div>
 		
 	</section>
-
+	<!-- End Banner Section -->
+	 
+	<!-- Welcome Section -->
 	
-
-	<!-- section porque elegirnos -->
-	<section class="features-section-two">
-		
+	<!-- End Welcome Section -->
+	
+	<!-- Counter Section Two -->
+	
+	<!-- End Counter Section Two -->
+	
+	<!-- Services Section Three -->
+	<section class="services-section-three">
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="icon-layer-one"><img src="images/content-image-3.png"></div>
 			<div class="sec-title centered">
 				
 				<h2>¿Por qué elegirnos?</h2>
-			
-			</div>
 			
 			</div>
 			<div class="row clearfix">
@@ -351,10 +351,9 @@
 				</div>
 				
 			</div>
-		</div>
+			</div>
 	</section>
 
-	<!-- About Section -->
 	<section class="about-section">
 		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-1.png)"></div>
 		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-2.png)"></div>
@@ -402,7 +401,7 @@
 			
 		</div>
 	</section>
-	<!-- Welcome Section -->
+
 	<section class="welcome-section">
 	
 		<div class="auto-container">
@@ -430,9 +429,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Welcome Section -->
-	
-	<!-- Counter Section Two -->
 	<section class="counter-section-two">
 		<div class="auto-container">
 			<div class="row clearfix">
@@ -503,126 +499,7 @@
 			
 		</div>
 	</section>
-	<!-- End Counter Section Two -->
-	
-	
-	<!-- End Services Section Three -->
-	
 
-
-	
-	<!-- Testimonial Section Three 
-	<section class="testimonial-section-three" style="background-image: url(images/background/pattern-16.png)">
-		<div class="auto-container">
-			<div class="row clearfix">
-			
-				
-				<div class="title-column col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						
-						<div class="sec-title light">
-							<div class="title">Que dicen nuestros clientes</div>
-							<h2>Somos de confianza en todo el pais</h2>
-						</div>
-						<div class="btns-box">
-							<a href="" class="theme-btn btn-style-five"><span class="txt">Instagram</span></a>
-						</div>
-					</div>
-				</div>
-				
-				Testimonial Column 
-				<div class="testimonial-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="testimonial-carousel-three owl-carousel owl-theme">
-							
-							
-							
-							
-							<div class="testimonial-block-three">
-								<div class="inner-box">
-									<div class="quote-icon fa fa-quote-left"></div>
-									<div class="text">“We know that sometimes it’s difficult to get to  the phone if you are in the middle of something and you don’t want to miss.”</div>
-									<div class="clearfix">
-										<div class="pull-left">
-											<div class="author-name">Susan Abraham</div>
-											<div class="designation">Happy Client</div>
-										</div>
-										<div class="pull-right">
-											<div class="rating">
-												<span class="fa fa-star"></span>
-												<span class="fa fa-star"></span>
-												<span class="fa fa-star"></span>
-												<span class="fa fa-star"></span>
-												<span class="fa fa-star"></span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	 -->
-	
-	<!-- 
-	<section class="gallery-section-three margin-top">
-		<div class="auto-container">
-			<div class="clearfix">
-				
-				<div class="gallery-block-three col-lg-3 col-md-6 col-sm-12"   >
-					<div class="inner-box">
-						
-						<iframe src="https://www.instagram.com/p/CVoKiWeJRHj/" width="300" height="300" frameborder="0" alt="Post de Instagram"></iframe>
-					</div>
-				</div>
-				
-			
-							<iframe src="https://www.instagram.com/p/CVvZykLpYUQ/embed" width="300" height="300" frameborder="0"></iframe>
-							
-						</div>
-					</div>
-				</div>
-				
-				 Gallery Block Three 
-				<div class="gallery-block-three col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							
-							<iframe src="https://www.instagram.com/p/CVvZykLpYUQ/embed" width="300" height="300" frameborder="0"></iframe>
-							
-						</div>
-					</div>
-				</div>-->
-				
-				
-				<!-- Quality Section <div class="gallery-block-four col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/9.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<h6><a href="projects-detail.html">Descubra nuestras capacidades</a></h6>
-										<a href="https://www.instagram.com/mecanica_lasso/" class="theme-btn btn-style-three"><span class="txt">Post</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>	Quality Section -->
-	
-	
-	<!-- Quality Section -->
 	<section class="quality-section">
 		<div class="auto-container">
 			<div class="row clearfix">
@@ -642,36 +519,32 @@
 			</div>
 		</div>
 	</section>
+	<!-- End Services Section Three -->
+	
+	<!-- Accordian Section -->
+	
+	<!-- End Accordian Section -->
+	
+	<!-- Testimonial Section Three -->
+	
+	<!-- End Testimonial Section Three -->
+	
+	<!-- Gallery Section Three -->
+	
+	<!-- End Gallery Section Three -->
+	
+	
 	<!-- End Quality Section -->
 	
 
 	<!-- End Call To Action Section Two -->
 	
 	<!-- Blog Section Three -->
-	
+
 	<!-- End Blog Section Three -->
 	
 	<!--Sponsors Section-->
-	<section class="sponsors-section style-three">
-		<div class="pattern-layer" style="background-image: url(images/background/pattern-19.jpg)"></div>
-		<div class="auto-container">
-			
-			<div class="carousel-outer">
-                <!--Sponsors Slider-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-					<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                </ul>
-            </div>
-			
-		</div>
-	</section>
+	
 	<!--End Sponsors Section-->
 	
 	<!-- Main Footer -->
@@ -733,7 +606,7 @@
 						<!-- Column -->
 						<div class="column col-lg-6 col-md-12 col-sm-12">
 							<ul class="footer-nav">
-								<li><a href="index-6.html">Inicio</a></li>
+								<li><a href="index.html">Inicio</a></li>
 								<li><a href="services.html">Servicios</a></li>
 								<li><a href="shopmecanica.html">Shop</a></li>
 								<li><a href="contact.html">Contacto</a></li>
