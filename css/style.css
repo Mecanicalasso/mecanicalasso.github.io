@@ -16043,7 +16043,7 @@ img{
     position: fixed;
     top: 10px;
     right: 10px;
-    width: 50px;
+    width: 40px;
     cursor: pointer;
     z-index: 1000;
 }
@@ -16236,30 +16236,8 @@ th, td {
     z-index: 1000; /* Asegura que esté encima de todo */
 }
 
-.image-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: none; /* Oculto por defecto */
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
 
-.image-overlay img.overlay-image {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain; /* Asegura que la imagen se ajuste al contenedor */
-}
 
-.image-overlay .close-button {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-}
+
+
+

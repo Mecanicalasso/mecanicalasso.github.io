@@ -276,21 +276,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-document.addEventListener('DOMContentLoaded', function() {
-    const productImages = document.querySelectorAll('.product-image');
-    const imageOverlays = document.querySelectorAll('.image-overlay');
-    const closeButtons = document.querySelectorAll('.close-button');
-
-    productImages.forEach((image, index) => {
-        image.addEventListener('click', function() {
-            imageOverlays[index].style.display = 'flex'; // Mostrar el overlay
+const imagenesProductos = document.querySelectorAll('.product img');
+    imagenesProductos.forEach(imagen => {
+        imagen.addEventListener('click', function(event) {
+            expandirImagen(event.target);
         });
     });
 
-    closeButtons.forEach((button, index) => {
-        button.addEventListener('click', function() {
-            imageOverlays[index].style.display = 'none'; // Ocultar el overlay
-        });
-    });
-});
