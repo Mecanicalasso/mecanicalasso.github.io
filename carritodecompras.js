@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             mensaje += nombre + " - Descripción: " + descripcion + " - Cantidad: " + cantidad + " - Precio: $" + (precio * cantidad).toFixed(2) + "\n";
         });
 
-        const enlaceWhatsApp = "https://wa.me/50769684299?text=" + encodeURIComponent(mensaje);
+        const enlaceWhatsApp = "https://wa.me/50767965293?text=" + encodeURIComponent(mensaje);
         window.location.href = enlaceWhatsApp;
     });
 
@@ -277,3 +277,20 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const productImages = document.querySelectorAll('.product-image');
+    const imageOverlays = document.querySelectorAll('.image-overlay');
+    const closeButtons = document.querySelectorAll('.close-button');
+
+    productImages.forEach((image, index) => {
+        image.addEventListener('click', function() {
+            imageOverlays[index].style.display = 'flex'; // Mostrar el overlay
+        });
+    });
+
+    closeButtons.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            imageOverlays[index].style.display = 'none'; // Ocultar el overlay
+        });
+    });
+});
